@@ -9,4 +9,6 @@ namespace App\Interfaces;
 interface IFilter
 {
     public function getConditions();
+
+    public function setConditions(array $criterias);
 }
